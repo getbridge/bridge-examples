@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731489941595113E002EAE5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731489931595113E002EAE5D /* UIKit.framework */; };
+		731489961595113E002EAE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731489951595113E002EAE5D /* Foundation.framework */; };
+		731489981595113E002EAE5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731489971595113E002EAE5D /* CoreGraphics.framework */; };
+		7314899E1595113E002EAE5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7314899C1595113E002EAE5D /* InfoPlist.strings */; };
+		731489A01595113E002EAE5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7314899F1595113E002EAE5D /* main.m */; };
+		731489A41595113E002EAE5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 731489A31595113E002EAE5D /* AppDelegate.m */; };
+		731489A71595113E002EAE5D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731489A51595113E002EAE5D /* MainStoryboard_iPhone.storyboard */; };
+		731489AA1595113E002EAE5D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731489A81595113E002EAE5D /* MainStoryboard_iPad.storyboard */; };
+		731489AD1595113E002EAE5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731489AC1595113E002EAE5D /* ViewController.m */; };
+		73148A4A15954369002EAE5D /* bridge-ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73148A481595435E002EAE5D /* bridge-ios.framework */; };
+		73148A4C1595437F002EAE5D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73148A4B1595437F002EAE5D /* CFNetwork.framework */; };
+		73148A4E15954383002EAE5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73148A4D15954383002EAE5D /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7314898F1595113E002EAE5D /* Greeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731489931595113E002EAE5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		731489951595113E002EAE5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		731489971595113E002EAE5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7314899B1595113E002EAE5D /* Greeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Greeter-Info.plist"; sourceTree = "<group>"; };
+		7314899D1595113E002EAE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7314899F1595113E002EAE5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		731489A11595113E002EAE5D /* Greeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Greeter-Prefix.pch"; sourceTree = "<group>"; };
+		731489A21595113E002EAE5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		731489A31595113E002EAE5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		731489A61595113E002EAE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		731489A91595113E002EAE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		731489AB1595113E002EAE5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		731489AC1595113E002EAE5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73148A481595435E002EAE5D /* bridge-ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "bridge-ios.framework"; path = "../../../../Library/Developer/Xcode/DerivedData/bridge-ajbsyretmvlmzcfplquorxjwbmiw/Build/Products/Release-iphoneos/bridge-ios.framework"; sourceTree = "<group>"; };
+		73148A4B1595437F002EAE5D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		73148A4D15954383002EAE5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7314898C1595113E002EAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73148A4E15954383002EAE5D /* Security.framework in Frameworks */,
+				73148A4C1595437F002EAE5D /* CFNetwork.framework in Frameworks */,
+				731489941595113E002EAE5D /* UIKit.framework in Frameworks */,
+				731489961595113E002EAE5D /* Foundation.framework in Frameworks */,
+				731489981595113E002EAE5D /* CoreGraphics.framework in Frameworks */,
+				73148A4A15954369002EAE5D /* bridge-ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731489841595113D002EAE5D = {
+			isa = PBXGroup;
+			children = (
+				73148A4D15954383002EAE5D /* Security.framework */,
+				73148A4B1595437F002EAE5D /* CFNetwork.framework */,
+				731489991595113E002EAE5D /* Greeter */,
+				731489921595113E002EAE5D /* Frameworks */,
+				731489901595113E002EAE5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		731489901595113E002EAE5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7314898F1595113E002EAE5D /* Greeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731489921595113E002EAE5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73148A481595435E002EAE5D /* bridge-ios.framework */,
+				731489931595113E002EAE5D /* UIKit.framework */,
+				731489951595113E002EAE5D /* Foundation.framework */,
+				731489971595113E002EAE5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		731489991595113E002EAE5D /* Greeter */ = {
+			isa = PBXGroup;
+			children = (
+				731489A21595113E002EAE5D /* AppDelegate.h */,
+				731489A31595113E002EAE5D /* AppDelegate.m */,
+				731489A51595113E002EAE5D /* MainStoryboard_iPhone.storyboard */,
+				731489A81595113E002EAE5D /* MainStoryboard_iPad.storyboard */,
+				731489AB1595113E002EAE5D /* ViewController.h */,
+				731489AC1595113E002EAE5D /* ViewController.m */,
+				7314899A1595113E002EAE5D /* Supporting Files */,
+			);
+			path = Greeter;
+			sourceTree = "<group>";
+		};
+		7314899A1595113E002EAE5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7314899B1595113E002EAE5D /* Greeter-Info.plist */,
+				7314899C1595113E002EAE5D /* InfoPlist.strings */,
+				7314899F1595113E002EAE5D /* main.m */,
+				731489A11595113E002EAE5D /* Greeter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7314898E1595113E002EAE5D /* Greeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731489B01595113E002EAE5D /* Build configuration list for PBXNativeTarget "Greeter" */;
+			buildPhases = (
+				7314898B1595113E002EAE5D /* Sources */,
+				7314898C1595113E002EAE5D /* Frameworks */,
+				7314898D1595113E002EAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greeter;
+			productName = Greeter;
+			productReference = 7314898F1595113E002EAE5D /* Greeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731489861595113D002EAE5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Flotype Inc.";
+			};
+			buildConfigurationList = 731489891595113D002EAE5D /* Build configuration list for PBXProject "Greeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 731489841595113D002EAE5D;
+			productRefGroup = 731489901595113E002EAE5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7314898E1595113E002EAE5D /* Greeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7314898D1595113E002EAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7314899E1595113E002EAE5D /* InfoPlist.strings in Resources */,
+				731489A71595113E002EAE5D /* MainStoryboard_iPhone.storyboard in Resources */,
+				731489AA1595113E002EAE5D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7314898B1595113E002EAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731489A01595113E002EAE5D /* main.m in Sources */,
+				731489A41595113E002EAE5D /* AppDelegate.m in Sources */,
+				731489AD1595113E002EAE5D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7314899C1595113E002EAE5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7314899D1595113E002EAE5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		731489A51595113E002EAE5D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731489A61595113E002EAE5D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		731489A81595113E002EAE5D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731489A91595113E002EAE5D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		731489AE1595113E002EAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731489AF1595113E002EAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731489B11595113E002EAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/bridge-ajbsyretmvlmzcfplquorxjwbmiw/Build/Products/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Greeter/Greeter-Prefix.pch";
+				INFOPLIST_FILE = "Greeter/Greeter-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		731489B21595113E002EAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/bridge-ajbsyretmvlmzcfplquorxjwbmiw/Build/Products/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Greeter/Greeter-Prefix.pch";
+				INFOPLIST_FILE = "Greeter/Greeter-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731489891595113D002EAE5D /* Build configuration list for PBXProject "Greeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731489AE1595113E002EAE5D /* Debug */,
+				731489AF1595113E002EAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731489B01595113E002EAE5D /* Build configuration list for PBXNativeTarget "Greeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731489B11595113E002EAE5D /* Debug */,
+				731489B21595113E002EAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731489861595113D002EAE5D /* Project object */;
+}

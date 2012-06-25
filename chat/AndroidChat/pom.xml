@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>BridgeAndroidTest</artifactId>
+  <name>asdf</name>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.flotype.bridge</groupId>
+      <artifactId>bridge-java-core</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
+    	<groupId>ch.qos.logback</groupId>
+    	<artifactId>logback-classic</artifactId>
+    	<version>1.0.3</version>
+    </dependency>
+  </dependencies>
+
+  <url>http://flotype.com</url>
+  <organization>
+    <name>Flotype Inc.</name>
+    <url>http://flotype.com</url>
+  </organization>
+  <scm>
+    <url>http://git.flotype.com/bridge-java</url>
+  </scm>
+  <version>0.0.1-snapshot</version>
+  <groupId>com.sridattalabs</groupId>
+</project>

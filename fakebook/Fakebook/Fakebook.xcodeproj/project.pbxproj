@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73CE71B71597A1FF00435960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CE71B61597A1FF00435960 /* UIKit.framework */; };
+		73CE71B91597A1FF00435960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CE71B81597A1FF00435960 /* Foundation.framework */; };
+		73CE71BB1597A1FF00435960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CE71BA1597A1FF00435960 /* CoreGraphics.framework */; };
+		73CE71C11597A1FF00435960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73CE71BF1597A1FF00435960 /* InfoPlist.strings */; };
+		73CE71C31597A1FF00435960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE71C21597A1FF00435960 /* main.m */; };
+		73CE71C71597A1FF00435960 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE71C61597A1FF00435960 /* AppDelegate.m */; };
+		73CE71CA1597A1FF00435960 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CE71C81597A1FF00435960 /* MainStoryboard_iPhone.storyboard */; };
+		73CE71CD1597A1FF00435960 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CE71CB1597A1FF00435960 /* MainStoryboard_iPad.storyboard */; };
+		73CE71D01597A1FF00435960 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE71CF1597A1FF00435960 /* ViewController.m */; };
+		73CE71DB1597A2DB00435960 /* bridge-ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CE71DA1597A2DB00435960 /* bridge-ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73CE71B21597A1FF00435960 /* Fakebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CE71B61597A1FF00435960 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73CE71B81597A1FF00435960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73CE71BA1597A1FF00435960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73CE71BE1597A1FF00435960 /* Fakebook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fakebook-Info.plist"; sourceTree = "<group>"; };
+		73CE71C01597A1FF00435960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73CE71C21597A1FF00435960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73CE71C41597A1FF00435960 /* Fakebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fakebook-Prefix.pch"; sourceTree = "<group>"; };
+		73CE71C51597A1FF00435960 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73CE71C61597A1FF00435960 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73CE71C91597A1FF00435960 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		73CE71CC1597A1FF00435960 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		73CE71CE1597A1FF00435960 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73CE71CF1597A1FF00435960 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73CE71DA1597A2DB00435960 /* bridge-ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "bridge-ios.framework"; path = "../../../../Library/Developer/Xcode/DerivedData/bridge-ajbsyretmvlmzcfplquorxjwbmiw/Build/Products/Release-iphoneos/bridge-ios.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73CE71AF1597A1FF00435960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CE71B71597A1FF00435960 /* UIKit.framework in Frameworks */,
+				73CE71B91597A1FF00435960 /* Foundation.framework in Frameworks */,
+				73CE71BB1597A1FF00435960 /* CoreGraphics.framework in Frameworks */,
+				73CE71DB1597A2DB00435960 /* bridge-ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73CE71A71597A1FE00435960 = {
+			isa = PBXGroup;
+			children = (
+				73CE71BC1597A1FF00435960 /* Fakebook */,
+				73CE71B51597A1FF00435960 /* Frameworks */,
+				73CE71B31597A1FF00435960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73CE71B31597A1FF00435960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73CE71B21597A1FF00435960 /* Fakebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73CE71B51597A1FF00435960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73CE71DA1597A2DB00435960 /* bridge-ios.framework */,
+				73CE71B61597A1FF00435960 /* UIKit.framework */,
+				73CE71B81597A1FF00435960 /* Foundation.framework */,
+				73CE71BA1597A1FF00435960 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73CE71BC1597A1FF00435960 /* Fakebook */ = {
+			isa = PBXGroup;
+			children = (
+				73CE71C51597A1FF00435960 /* AppDelegate.h */,
+				73CE71C61597A1FF00435960 /* AppDelegate.m */,
+				73CE71C81597A1FF00435960 /* MainStoryboard_iPhone.storyboard */,
+				73CE71CB1597A1FF00435960 /* MainStoryboard_iPad.storyboard */,
+				73CE71CE1597A1FF00435960 /* ViewController.h */,
+				73CE71CF1597A1FF00435960 /* ViewController.m */,
+				73CE71BD1597A1FF00435960 /* Supporting Files */,
+			);
+			path = Fakebook;
+			sourceTree = "<group>";
+		};
+		73CE71BD1597A1FF00435960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CE71BE1597A1FF00435960 /* Fakebook-Info.plist */,
+				73CE71BF1597A1FF00435960 /* InfoPlist.strings */,
+				73CE71C21597A1FF00435960 /* main.m */,
+				73CE71C41597A1FF00435960 /* Fakebook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73CE71B11597A1FF00435960 /* Fakebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CE71D31597A1FF00435960 /* Build configuration list for PBXNativeTarget "Fakebook" */;
+			buildPhases = (
+				73CE71AE1597A1FF00435960 /* Sources */,
+				73CE71AF1597A1FF00435960 /* Frameworks */,
+				73CE71B01597A1FF00435960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fakebook;
+			productName = Fakebook;
+			productReference = 73CE71B21597A1FF00435960 /* Fakebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73CE71A91597A1FE00435960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Flotype Inc.";
+			};
+			buildConfigurationList = 73CE71AC1597A1FE00435960 /* Build configuration list for PBXProject "Fakebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73CE71A71597A1FE00435960;
+			productRefGroup = 73CE71B31597A1FF00435960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73CE71B11597A1FF00435960 /* Fakebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73CE71B01597A1FF00435960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CE71C11597A1FF00435960 /* InfoPlist.strings in Resources */,
+				73CE71CA1597A1FF00435960 /* MainStoryboard_iPhone.storyboard in Resources */,
+				73CE71CD1597A1FF00435960 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73CE71AE1597A1FF00435960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CE71C31597A1FF00435960 /* main.m in Sources */,
+				73CE71C71597A1FF00435960 /* AppDelegate.m in Sources */,
+				73CE71D01597A1FF00435960 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73CE71BF1597A1FF00435960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73CE71C01597A1FF00435960 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73CE71C81597A1FF00435960 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73CE71C91597A1FF00435960 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		73CE71CB1597A1FF00435960 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73CE71CC1597A1FF00435960 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73CE71D11597A1FF00435960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73CE71D21597A1FF00435960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73CE71D41597A1FF00435960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/bridge-ajbsyretmvlmzcfplquorxjwbmiw/Build/Products/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fakebook/Fakebook-Prefix.pch";
+				INFOPLIST_FILE = "Fakebook/Fakebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73CE71D51597A1FF00435960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/bridge-ajbsyretmvlmzcfplquorxjwbmiw/Build/Products/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fakebook/Fakebook-Prefix.pch";
+				INFOPLIST_FILE = "Fakebook/Fakebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73CE71AC1597A1FE00435960 /* Build configuration list for PBXProject "Fakebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CE71D11597A1FF00435960 /* Debug */,
+				73CE71D21597A1FF00435960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CE71D31597A1FF00435960 /* Build configuration list for PBXNativeTarget "Fakebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CE71D41597A1FF00435960 /* Debug */,
+				73CE71D51597A1FF00435960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73CE71A91597A1FE00435960 /* Project object */;
+}

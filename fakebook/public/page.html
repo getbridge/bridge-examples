@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Fakebook</title>
+	<link rel="stylesheet" type="text/css" href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap-combined.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+  <script src="http://getbridge.com/js/bridge.min.js"></script>
+
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body id="home">
+
+    <div class="container">
+      <div class="row" id="banner">
+        <h1 class="span4">Fakebook<h1>
+      </div>
+      <div id="main" class="row">
+        <div id="feed" class="span8">
+          <h2>Newsfeed</h2>
+          <form id="status" class="well form-search">
+            <input id="status-input" type="text" class="input-medium search-query">
+            <button id="status-submit" type="submit" class="btn btn-large btn-primary">Post</button>
+          </form>
+          <div id="posts">
+            <div class="post">
+              <img class="span1"src="http://robohash.com/Angsty%20Bonobo" alt="" />
+              <div class="post-content span5">
+                <strong>Angsty Bonobo</strong>
+                <p>Fakebook is the best social network I've ever used!</p>
+              </div>
+            </div>
+          </div>
+       </div>
+       <div id="chat" class="span4">
+           <h2>Chat</h2>
+           <div id="messages">
+             
+           </div>
+          <form class="well form-search">
+            <input id="chat-input" type="text" class="input-medium search-query">
+            <button id="chat-submit" type="submit" class="btn btn-large btn-primary">Send</button>
+          </form>
+       </div>
+      </div>
+    </div>
+
+<script>
+$(function(){
+  var bridge = new Bridge({apiKey:'abcdefgh'});
+
+  var names = ["Jasper Eich", "Robert Matsumoto", "Patty van Rossum",
+  "Javed Gosling", "Andy Rubin", "Ipsen Jobs"];
+
+  var userName = names[Math.floor(Math.random() * (names.length + 1))];
+
+  var postServer;
+
+  var feedHandler = {
+    post: function(author, message){
+      var robotPic = encodeURI("http://robohash.com/"+author);
+      var img = $("<img>").attr("src", robotPic).addClass('span1');
+      var author  = $('<strong>').text(author);
+      var message = $('<p>').text(message);
+      var content = $('<div>').addClass("post-content span5")
+                              .append(author)
+                              .append(message);
+      var post = $("<div>").append(img).append(content)
+                            .addClass('post');
+
+      $('#posts').prepend(post);
+    }
+  };
+
+  var onFeedActivate = function(){
+    $('#status-submit').click(function(){
+      postServer.submit(userName, $('#status-input').val());
+      $('#status-input').val('');
+    });
+  }
+  
+  bridge.getService('posts', function(posts){
+    postServer = posts;
+    postServer.activateFeed(feedHandler, onFeedActivate);
+  });
+
+  var chat_channel;
+
+  var chatHandler = {
+    message: function(sender, message) {
+      $('#messages').append(sender + ' : ' + message + '<br>');
+    }
+  }
+
+  var joinCallback = function(channel) {
+    chat_channel = channel;
+
+    $('#chat-submit').click(function(){
+      chat_channel.message(userName, $('#chat-input').val());
+      $('#chat-input').val('');
+      return false;
+    });
+  }
+
+  bridge.getService('auth', function(auth){
+    auth.join('bridge-lovers', 'secret123', chatHandler, joinCallback);
+  });
+
+  bridge.connect();
+
+  $('form').submit(function(){return false});
+  
+});
+</script>
+
+</body>
+</html>
